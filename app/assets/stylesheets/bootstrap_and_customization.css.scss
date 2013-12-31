@@ -1,6 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Ribeye);
+$font-family-sans-serif: 'Ribeye','Helvetica Neue',Helvetica, Arial, sans-serif;
 $brand-primary: #e67e22;
 $navbar-default-bg: #34495e;
-$body-bg: #2ecc71;
+$body-bg: #95a5a6;
 $navbar-default-link-color:#ecf0f1;
-$jumbotron-bg: #1dd2af;
+$jumbotron-bg: #16a085;
+$text-color: #ecf0f1;
+
 @import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
